@@ -38,7 +38,11 @@ angular.module('app', ['dvalid']);
 
 include the package.
 ```javascript
-    <script src="bower_components/dvalidate/dvalid.min.js"></script>
+    
+    <!--npm-->
+      <script src="node_modules/ng-dvalid/dvalid.min.js"></script>
+    <!--bower-->
+      <script src="bower_components/dvalidate/dvalid.min.js"></script>
 ```
 
 
@@ -54,7 +58,15 @@ In your form,
     <div dvalidate init="init" end="end" ng-model="validation"></div>
 
     <pre>
-        {{myForm.$error | json}}
+        {{myForm.$error.startInvalid  | json  }}
+        
+        {{myForm.$error.startRequired | json  }}
+        
+        {{myForm.$error.endRequired   | json  }}
+    
+        {{myForm.$error.endInvalid    | json  }}
+            
+        {{myForm.$error.spanInvalid   | json  }}
     </pre>
 </form>
 
