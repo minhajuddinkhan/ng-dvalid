@@ -1,0 +1,29 @@
+{
+  "name": "date-validator",
+  "authors": [
+    "Minhaj <minhajuddinkhan75@gmail.com>"
+  ],
+  "description": "validator for start and end dates bindings with ng-messages",
+  "main": "",
+  "keywords": [
+    "date",
+    "validation",
+    "datevalidator",
+    "start",
+    "date",
+    "validator"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".idea",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
