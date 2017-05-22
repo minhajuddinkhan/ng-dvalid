@@ -5,7 +5,7 @@ Component to validate time span between start dates and end dates.
 ## Bower
 
 ```
-bower install something --save
+bower install dvalidate --save
 ```
 
 ## Adding Dependency.
@@ -32,9 +32,7 @@ angular.module('app', ['dvalid']);
 
 including the package.
 ```javascript
-
-
-    <script src="/bower_components/dvalid/dvalid.min.js"></script>
+    <script src="bower_components/dvalidate/dvalid.min.js"></script>
 ```
 
 ```html
@@ -53,3 +51,7 @@ including the package.
 
 ```
 
+
+
+### Note: 
+timestamps are not validated.
