@@ -30,10 +30,13 @@ angular.module('app', ['dvalid']);
 ### Example
 
 
-including the package.
+include the package.
 ```javascript
     <script src="bower_components/dvalidate/dvalid.min.js"></script>
 ```
+
+
+In your form,
 
 ```html
 
