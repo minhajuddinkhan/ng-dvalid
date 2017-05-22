@@ -2,6 +2,11 @@
 ![alt text](http://findicons.com/files/icons/2773/pictonic_free/128/angularjs.png) 
 Component to validate time span between start dates and end dates.
 
+## NPM
+
+```
+npm install ng-dvalid
+```
 
 ## Bower
 
