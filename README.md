@@ -5,7 +5,7 @@ Component to validate time span between start dates and end dates.
 ## NPM
 
 ```
-npm install ng-dvalid
+npm install ng-dvalid --save
 ```
 
 ## Bower
