@@ -1,4 +1,5 @@
-# ng-datepsan-validator
+
+![alt text](http://findicons.com/files/icons/2773/pictonic_free/128/angularjs.png) # ng-datepsan-validator
 Component to validate time span between start dates and end dates.
 
 
